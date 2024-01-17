@@ -247,3 +247,4 @@ The deployment is in-place deploy, which would cause a short down time of the ap
 
 
 When you are using the in place deployment method, please have an ec2 instance ready with docker installed and configured. Then store the username, the IP address and content of the pem file of the ec2 in repository secrets.
+
