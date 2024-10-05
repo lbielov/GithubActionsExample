@@ -15,7 +15,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_OBUSERNAME }}
-          password: ${{ secrets.DOCKERHUB_OBTOKEN }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
       - uses: actions/checkout@v2
       - name: list files
         run: ls -l
